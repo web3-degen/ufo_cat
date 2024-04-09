@@ -17,8 +17,8 @@ const Hero: FC = () => (
     <Img
       width="100%"
       alt="background"
-      src="/img/bg.webp"
       borderRadius="2rem"
+      src="/img/cover.webp"
       mb={['-3rem', '-4rem', '-5rem', '-7rem']}
     />
     <H1 title="Tolo Yakoloko" aria-label="Tolo Yakoloko">
