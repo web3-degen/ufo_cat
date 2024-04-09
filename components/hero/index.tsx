@@ -38,9 +38,9 @@ const Hero: FC = () => (
         ✅ Contract:<Code> 7EGxmyu8DEvVVW3SxQBVeRh6ft3Qbtx2WNWxb2W7oxZ1</Code>
       </P>
       <A
-        href="https://twitter.com/SolanoCofudder"
         target="_blank"
         rel="noreferer, noopener"
+        href="https://twitter.com/SolanoCofudder"
       >
         <XSVG maxWidth="2rem" maxHeight="2rem" width="100%" />
       </A>
