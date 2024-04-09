@@ -1,4 +1,14 @@
-import { A, Button, Code, Div, H1, Header, Img, P } from '@stylin.js/elements';
+import {
+  A,
+  Button,
+  Code,
+  Div,
+  H1,
+  H2,
+  Header,
+  Img,
+  P,
+} from '@stylin.js/elements';
 import { FC } from 'react';
 
 import { XSVG } from '../svg';
@@ -30,6 +40,9 @@ const Hero: FC = () => (
           src="/img/logo.webp"
         />
       </H1>
+      <H2 fontSize="1.8rem" maxWidth="40rem">
+        I am Tolo, co-fudder of Solano Labs
+      </H2>
       <P fontSize="1.8rem" maxWidth="40rem">
         Tolo Yakoloko has no intrinsic value, it is a community and culture
         token. No Promises, No Utility, Purely For Entertainment
