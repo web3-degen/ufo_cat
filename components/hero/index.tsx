@@ -50,7 +50,7 @@ const Hero: FC = () => (
       <A
         target="_blank"
         rel="noreferer, noopener"
-        href="https://twitter.com/SolanoCofudder"
+        href="#"
         transition="transform 300ms ease-in-out"
         nHover={{ transform: 'scale(1.1)' }}
       >
@@ -61,7 +61,7 @@ const Hero: FC = () => (
       <A
         target="_blank"
         rel="noreferer, noopener"
-        href="https://twitter.com/SolanoCofudder"
+        href="#"
         transition="transform 300ms ease-in-out"
         nHover={{ transform: 'scale(1.1)' }}
       >
@@ -70,7 +70,7 @@ const Hero: FC = () => (
       <A
         target="_blank"
         rel="noreferer, noopener"
-        href="https://twitter.com/SolanoCofudder"
+        href="#"
         transition="transform 300ms ease-in-out"
         nHover={{ transform: 'scale(1.1)' }}
       >
@@ -79,7 +79,7 @@ const Hero: FC = () => (
       <A
         target="_blank"
         rel="noreferer, noopener"
-        href="https://twitter.com/SolanoCofudder"
+        href="#"
         transition="transform 300ms ease-in-out"
         nHover={{ transform: 'scale(1.1)' }}
       >
@@ -88,7 +88,7 @@ const Hero: FC = () => (
       <A
         target="_blank"
         rel="noreferer, noopener"
-        href="https://twitter.com/SolanoCofudder"
+        href="#"
         transition="transform 300ms ease-in-out"
         nHover={{ transform: 'scale(1.1)' }}
       >
