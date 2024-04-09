@@ -1,7 +1,7 @@
-import { A, Button, Code, H1, Header, Img, P } from '@stylin.js/elements';
+import { A, Button, Code, Div, H1, Header, Img, P } from '@stylin.js/elements';
 import { FC } from 'react';
 
-import { XSVG } from '../svg';
+import { TelegramSVG, XSVG } from '../svg';
 
 const Hero: FC = () => (
   <Header
@@ -37,13 +37,64 @@ const Hero: FC = () => (
     <P>
       ✅ Contract:<Code> Coming soon</Code>
     </P>
-    <A
-      target="_blank"
-      rel="noreferer, noopener"
-      href="https://twitter.com/SolanoCofudder"
-    >
-      <XSVG maxWidth="2rem" maxHeight="2rem" width="100%" />
-    </A>
+    <Div display="flex" gap="1rem" mt="1rem">
+      <A
+        target="_blank"
+        rel="noreferer, noopener"
+        href="https://twitter.com/SolanoCofudder"
+        transition="transform 300ms ease-in-out"
+        nHover={{ transform: 'scale(1.1)' }}
+      >
+        <XSVG maxWidth="3rem" maxHeight="3rem" width="100%" />
+      </A>
+      <A
+        target="_blank"
+        rel="noreferer, noopener"
+        href="https://twitter.com/SolanoCofudder"
+        transition="transform 300ms ease-in-out"
+        nHover={{ transform: 'scale(1.1)' }}
+      >
+        <TelegramSVG maxWidth="3rem" maxHeight="3rem" width="100%" />
+      </A>
+    </Div>
+    <Div display="flex" gap="0.5rem" mb="1rem">
+      <A
+        target="_blank"
+        rel="noreferer, noopener"
+        href="https://twitter.com/SolanoCofudder"
+        transition="transform 300ms ease-in-out"
+        nHover={{ transform: 'scale(1.1)' }}
+      >
+        <Img width="5rem" src="/img/coingecko.webp" alt="Coin Gecko" />
+      </A>
+      <A
+        target="_blank"
+        rel="noreferer, noopener"
+        href="https://twitter.com/SolanoCofudder"
+        transition="transform 300ms ease-in-out"
+        nHover={{ transform: 'scale(1.1)' }}
+      >
+        <Img width="5rem" src="/img/coinmarketcap.webp" alt="Coin Market Cap" />
+      </A>
+      <A
+        target="_blank"
+        rel="noreferer, noopener"
+        href="https://twitter.com/SolanoCofudder"
+        transition="transform 300ms ease-in-out"
+        nHover={{ transform: 'scale(1.1)' }}
+      >
+        <Img width="5rem" src="/img/dexscreener.webp" alt="Dex Screener" />
+      </A>
+      <A
+        target="_blank"
+        rel="noreferer, noopener"
+        href="https://twitter.com/SolanoCofudder"
+        transition="transform 300ms ease-in-out"
+        nHover={{ transform: 'scale(1.1)' }}
+      >
+        <Img width="5rem" src="/img/dextools.webp" alt="Dex Tools" />
+      </A>
+    </Div>
     <Button
       all="unset"
       py="1rem"

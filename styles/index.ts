@@ -9,6 +9,10 @@ export const GlobalStyles = css`
     font-family: 'Holywind';
     src: url('/fonts/Holywind.ttf');
   }
+  @font-face {
+    font-family: 'scribble';
+    src: url('/fonts/scribble.ttf');
+  }
 
   * {
     margin: 0;
@@ -23,7 +27,7 @@ export const GlobalStyles = css`
   h4,
   h5,
   h6 {
-    font-family: 'Holywind';
+    font-family: 'scribble';
     text-shadow: 3px 3px 0 #fff;
   }
 
