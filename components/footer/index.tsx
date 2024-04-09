@@ -1,27 +1,16 @@
-import { Div, Footer as FooterElement, Img } from '@stylin.js/elements';
+import { Footer as FooterElement, P } from '@stylin.js/elements';
 import { FC } from 'react';
 
 const Footer: FC = () => (
   <FooterElement px="2rem" py="4rem">
-    <Div
-      mx="auto"
-      gap="2rem"
-      width="100%"
-      display="flex"
-      maxWidth="1024px"
+    <P
+      opacity="0.8"
+      fontSize="0.75rem"
       textAlign="center"
-      alignItems="center"
-      flexDirection="column"
+      fontFamily="-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu"
     >
-      <Img
-        width="10rem"
-        height="10rem"
-        objectFit="cover"
-        borderRadius="50%"
-        src="/img/obliquo-book.webp"
-        alt="The Book of Andlew Tote with Background"
-      />
-    </Div>
+      No Promises, No Utility, Purely For Entertainment
+    </P>
   </FooterElement>
 );
 
