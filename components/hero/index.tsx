@@ -82,7 +82,7 @@ const Hero: FC = () => (
       >
         <Img width="5rem" src="/img/jup.webp" alt="Jup" />
       </A>
-      <A
+      {/* <A
         target="_blank"
         rel="noreferer, noopener"
         href="#"
@@ -99,7 +99,7 @@ const Hero: FC = () => (
         nHover={{ transform: 'scale(1.1)' }}
       >
         <Img width="5rem" src="/img/coinmarketcap.webp" alt="Coin Market Cap" />
-      </A>
+      </A> */}
       <A
         target="_blank"
         rel="noreferer, noopener"
