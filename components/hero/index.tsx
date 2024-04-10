@@ -131,7 +131,7 @@ const Hero: FC = () => (
       alignItems="center"
       fontFamily="GochiHand"
       border="5px solid #3E0451"
-      boxShadow="10px 10px 1px #494949"
+      boxShadow="10px 10px 0px #3E0451"
       nHover={{ transform: 'scale(1.1)' }}
       transition="transform 300ms ease-in-out"
     >
