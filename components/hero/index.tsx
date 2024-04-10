@@ -1,7 +1,15 @@
-import { A, Button, Code, Div, H1, Header, Img, P } from '@stylin.js/elements';
+import {
+  A,
+  Button,
+  Code,
+  Div,
+  H1,
+  H2,
+  Header,
+  Img,
+  P,
+} from '@stylin.js/elements';
 import { FC } from 'react';
-
-import { TelegramSVG, XSVG } from '../svg';
 
 const Hero: FC = () => (
   <Header
@@ -31,13 +39,13 @@ const Hero: FC = () => (
         height={['5rem', '7.5rem', '10rem', '15rem']}
       />
     </H1>
-    <P fontSize="1.8rem" maxWidth="40rem">
+    <H2 fontSize="1.8rem" maxWidth="40rem">
       I am Tolo, co-fudder of Solano Labs
-    </P>
+    </H2>
     <P>
       ✅ Contract:<Code> Coming soon</Code>
     </P>
-    <Div display="flex" gap="1rem" mt="1rem">
+    <Div display="flex" gap="0.5rem" mb="1rem">
       <A
         target="_blank"
         rel="noreferer, noopener"
@@ -45,7 +53,16 @@ const Hero: FC = () => (
         transition="transform 300ms ease-in-out"
         nHover={{ transform: 'scale(1.1)' }}
       >
-        <XSVG maxWidth="3rem" maxHeight="3rem" width="100%" />
+        <Img width="5rem" src="/img/x.webp" alt="X" />
+      </A>
+      <A
+        target="_blank"
+        rel="noreferer, noopener"
+        href="t.me/solanacofudder"
+        transition="transform 300ms ease-in-out"
+        nHover={{ transform: 'scale(1.1)' }}
+      >
+        <Img width="5rem" src="/img/tg.webp" alt="Coin Market Cap" />
       </A>
       <A
         target="_blank"
@@ -54,10 +71,17 @@ const Hero: FC = () => (
         transition="transform 300ms ease-in-out"
         nHover={{ transform: 'scale(1.1)' }}
       >
-        <TelegramSVG maxWidth="3rem" maxHeight="3rem" width="100%" />
+        <Img width="5rem" src="/img/birdeye.webp" alt="Birdeye" />
       </A>
-    </Div>
-    <Div display="flex" gap="0.5rem" mb="1rem">
+      <A
+        target="_blank"
+        rel="noreferer, noopener"
+        href="#"
+        transition="transform 300ms ease-in-out"
+        nHover={{ transform: 'scale(1.1)' }}
+      >
+        <Img width="5rem" src="/img/jup.webp" alt="Jup" />
+      </A>
       <A
         target="_blank"
         rel="noreferer, noopener"
@@ -97,18 +121,23 @@ const Hero: FC = () => (
     </Div>
     <Button
       all="unset"
-      py="1rem"
-      px="2rem"
-      bg="#3E0451"
-      color="#ffffff"
+      p="1rem"
+      gap="1rem"
+      bg="#ffffff"
+      display="flex"
+      color="#3E0451"
+      fontSize="2rem"
       cursor="pointer"
-      fontSize="1.5rem"
+      alignItems="center"
       fontFamily="GochiHand"
+      border="5px solid #3E0451"
       boxShadow="10px 10px 1px #494949"
       nHover={{ transform: 'scale(1.1)' }}
       transition="transform 300ms ease-in-out"
     >
+      <Img width="3rem" src="/img/pump.webp" alt="Pump" />
       Buy Now
+      <Img width="3rem" src="/img/solana.webp" alt="Solana" />
     </Button>
   </Header>
 );
