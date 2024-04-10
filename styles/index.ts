@@ -10,8 +10,12 @@ export const GlobalStyles = css`
     src: url('/fonts/Holywind.ttf');
   }
   @font-face {
-    font-family: 'scribble';
+    font-family: 'Scribble';
     src: url('/fonts/scribble.ttf');
+  }
+  @font-face {
+    font-family: 'Reenie';
+    src: url('/fonts/reenie-beanie.regular.ttf');
   }
 
   * {
@@ -27,8 +31,13 @@ export const GlobalStyles = css`
   h4,
   h5,
   h6 {
-    font-family: 'scribble';
+    font-family: 'Reenie';
     text-shadow: 3px 3px 0 #fff;
+  }
+
+  p {
+    font-family: 'Reenie';
+    text-transform: uppercase;
   }
 
   html {

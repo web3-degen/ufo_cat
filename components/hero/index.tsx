@@ -39,11 +39,11 @@ const Hero: FC = () => (
         height={['5rem', '7.5rem', '10rem', '15rem']}
       />
     </H1>
-    <H2 fontSize="1.8rem" maxWidth="40rem">
-      I am Tolo, co-fudder of Solano Labs
+    <H2 fontSize="2rem" maxWidth="40rem">
+      Me Tolo Yakoloco, co-fudder of Solano Labs.
     </H2>
-    <P>
-      ✅ Contract:<Code> Coming soon</Code>
+    <P fontSize="1.5rem" maxWidth="40rem">
+      ✅ <Code>CA: Komin suun</Code>
     </P>
     <Div display="flex" gap="0.5rem" mb="1rem">
       <A
@@ -51,25 +51,25 @@ const Hero: FC = () => (
         rel="noreferer, noopener"
         href="https://twitter.com/SolanoCofudder"
         transition="transform 300ms ease-in-out"
-        nHover={{ transform: 'scale(1.1)' }}
+        nHover={{ transform: 'scale(1.3)' }}
       >
         <Img width="5rem" src="/img/x.webp" alt="X" />
       </A>
       <A
         target="_blank"
         rel="noreferer, noopener"
-        href="t.me/solanacofudder"
+        href="https://t.me/solanacofudder"
         transition="transform 300ms ease-in-out"
-        nHover={{ transform: 'scale(1.1)' }}
+        nHover={{ transform: 'scale(1.3)' }}
       >
         <Img width="5rem" src="/img/tg.webp" alt="Coin Market Cap" />
       </A>
-      <A
+      {/* <A
         target="_blank"
         rel="noreferer, noopener"
         href="#"
         transition="transform 300ms ease-in-out"
-        nHover={{ transform: 'scale(1.1)' }}
+        nHover={{ transform: 'scale(1.3)' }}
       >
         <Img width="5rem" src="/img/birdeye.webp" alt="Birdeye" />
       </A>
@@ -78,16 +78,16 @@ const Hero: FC = () => (
         rel="noreferer, noopener"
         href="#"
         transition="transform 300ms ease-in-out"
-        nHover={{ transform: 'scale(1.1)' }}
+        nHover={{ transform: 'scale(1.3)' }}
       >
         <Img width="5rem" src="/img/jup.webp" alt="Jup" />
-      </A>
+      </A> */}
       {/* <A
         target="_blank"
         rel="noreferer, noopener"
         href="#"
         transition="transform 300ms ease-in-out"
-        nHover={{ transform: 'scale(1.1)' }}
+        nHover={{ transform: 'scale(1.3)' }}
       >
         <Img width="5rem" src="/img/coingecko.webp" alt="Coin Gecko" />
       </A>
@@ -96,16 +96,16 @@ const Hero: FC = () => (
         rel="noreferer, noopener"
         href="#"
         transition="transform 300ms ease-in-out"
-        nHover={{ transform: 'scale(1.1)' }}
+        nHover={{ transform: 'scale(1.3)' }}
       >
         <Img width="5rem" src="/img/coinmarketcap.webp" alt="Coin Market Cap" />
       </A> */}
-      <A
+      {/* <A
         target="_blank"
         rel="noreferer, noopener"
         href="#"
         transition="transform 300ms ease-in-out"
-        nHover={{ transform: 'scale(1.1)' }}
+        nHover={{ transform: 'scale(1.3)' }}
       >
         <Img width="5rem" src="/img/dexscreener.webp" alt="Dex Screener" />
       </A>
@@ -114,10 +114,10 @@ const Hero: FC = () => (
         rel="noreferer, noopener"
         href="#"
         transition="transform 300ms ease-in-out"
-        nHover={{ transform: 'scale(1.1)' }}
+        nHover={{ transform: 'scale(1.3)' }}
       >
         <Img width="5rem" src="/img/dextools.webp" alt="Dex Tools" />
-      </A>
+      </A> */}
     </Div>
     <Button
       all="unset"
@@ -135,8 +135,8 @@ const Hero: FC = () => (
       nHover={{ transform: 'scale(1.1)' }}
       transition="transform 300ms ease-in-out"
     >
-      <Img width="3rem" src="/img/pump.webp" alt="Pump" />
-      Buy Now
+      {/* <Img width="3rem" src="/img/pump.webp" alt="Pump" /> */}
+      SUUN...
       <Img width="3rem" src="/img/solana.webp" alt="Solana" />
     </Button>
   </Header>

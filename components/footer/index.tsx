@@ -6,6 +6,7 @@ const Footer: FC = () => (
     <P
       opacity="0.8"
       fontSize="0.75rem"
+      fontWeight="bold"
       textAlign="center"
       fontFamily="-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu"
     >
