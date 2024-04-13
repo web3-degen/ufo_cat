@@ -43,7 +43,7 @@ const Hero: FC = () => (
       Me Tolo Yakoloco, co-fudder of Solano Labs.
     </H2>
     <P fontSize="1.5rem" maxWidth="40rem">
-      ✅ <Code>CA: Komin suun</Code>
+      ✅ <Code>CA: wbQqETusxtZEpB1SGiYhMDEM8ruBKazb6rgEmiNF5GB</Code>
     </P>
     <Div display="flex" gap="0.5rem" mb="1rem">
       <A
@@ -64,19 +64,19 @@ const Hero: FC = () => (
       >
         <Img width="5rem" src="/img/tg.webp" alt="Coin Market Cap" />
       </A>
-      {/* <A
+      <A
         target="_blank"
         rel="noreferer, noopener"
-        href="#"
+        href="https://birdeye.so/token/wbQqETusxtZEpB1SGiYhMDEM8ruBKazb6rgEmiNF5GB?chain=solana"
         transition="transform 300ms ease-in-out"
         nHover={{ transform: 'scale(1.3)' }}
       >
         <Img width="5rem" src="/img/birdeye.webp" alt="Birdeye" />
       </A>
-      <A
+      {/* <A
         target="_blank"
         rel="noreferer, noopener"
-        href="#"
+        href=""
         transition="transform 300ms ease-in-out"
         nHover={{ transform: 'scale(1.3)' }}
       >
@@ -100,10 +100,10 @@ const Hero: FC = () => (
       >
         <Img width="5rem" src="/img/coinmarketcap.webp" alt="Coin Market Cap" />
       </A> */}
-      {/* <A
+      <A
         target="_blank"
         rel="noreferer, noopener"
-        href="#"
+        href="https://dexscreener.com/solana/65lxwfmlj8fjj5lepcv979mtddiimpm1zmtkrxu12tvp"
         transition="transform 300ms ease-in-out"
         nHover={{ transform: 'scale(1.3)' }}
       >
@@ -112,12 +112,12 @@ const Hero: FC = () => (
       <A
         target="_blank"
         rel="noreferer, noopener"
-        href="#"
+        href="https://www.dextools.io/app/en/solana/pair-explorer/65LXWfmLJ8Fjj5LEpCV979MTDdiiMPm1ZmtkrXU12tVP?t=1712971144437"
         transition="transform 300ms ease-in-out"
         nHover={{ transform: 'scale(1.3)' }}
       >
         <Img width="5rem" src="/img/dextools.webp" alt="Dex Tools" />
-      </A> */}
+      </A>
     </Div>
     <Button
       all="unset"
@@ -135,8 +135,8 @@ const Hero: FC = () => (
       nHover={{ transform: 'scale(1.1)' }}
       transition="transform 300ms ease-in-out"
     >
-      {/* <Img width="3rem" src="/img/pump.webp" alt="Pump" /> */}
-      SUUN...
+      <Img width="3rem" src="/img/pump.webp" alt="Pump" />
+      BUY NOW
       <Img width="3rem" src="/img/solana.webp" alt="Solana" />
     </Button>
   </Header>
