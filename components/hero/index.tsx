@@ -49,7 +49,7 @@ const Hero: FC = () => (
       <A
         target="_blank"
         rel="noreferer, noopener"
-        href="#"
+        href="https://twitter.com/SolanoCofudder"
         transition="transform 300ms ease-in-out"
         nHover={{ transform: 'scale(1.3)' }}
       >
@@ -58,7 +58,7 @@ const Hero: FC = () => (
       <A
         target="_blank"
         rel="noreferer, noopener"
-        href="#"
+        href="https://t.me/solanacofudder"
         transition="transform 300ms ease-in-out"
         nHover={{ transform: 'scale(1.3)' }}
       >
@@ -136,7 +136,7 @@ const Hero: FC = () => (
       transition="transform 300ms ease-in-out"
     >
       <Img width="3rem" src="/img/pump.webp" alt="Pump" />
-      BUY NOW
+      SOON...
       <Img width="3rem" src="/img/solana.webp" alt="Solana" />
     </Button>
   </Header>
