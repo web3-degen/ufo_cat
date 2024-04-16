@@ -43,7 +43,7 @@ const Hero: FC = () => (
       Me Tolo Yakoloco, co-fudder of Solano Labs.
     </H2>
     <P fontSize="1.5rem" maxWidth="40rem">
-      ✅ <Code>CA: Soon</Code>
+      ✅ <Code>CA: 6GgVewyRN9PGJQbHXBf3YUg99cGQA87Bbx6vNpA3uXit</Code>
     </P>
     <Div display="flex" gap="0.5rem" mb="1rem">
       <A
