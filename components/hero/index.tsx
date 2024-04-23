@@ -76,30 +76,21 @@ const Hero: FC = () => (
       {/* <A
         target="_blank"
         rel="noreferer, noopener"
-        href="https://jup.ag/swap/wbQqETusxtZEpB1SGiYhMDEM8ruBKazb6rgEmiNF5GB-SOL"
-        transition="transform 300ms ease-in-out"
-        nHover={{ transform: 'scale(1.3)' }}
-      >
-        <Img width="5rem" src="/img/jup.webp" alt="Jup" />
-      </A> */}
-      {/* <A
-        target="_blank"
-        rel="noreferer, noopener"
         href="#"
         transition="transform 300ms ease-in-out"
         nHover={{ transform: 'scale(1.3)' }}
       >
         <Img width="5rem" src="/img/coingecko.webp" alt="Coin Gecko" />
       </A> */}
-      {/* <A
+      <A
         target="_blank"
         rel="noreferer, noopener"
-        href="#"
+        href="https://coinmarketcap.com/currencies/tolo-yacoloco/"
         transition="transform 300ms ease-in-out"
         nHover={{ transform: 'scale(1.3)' }}
       >
         <Img width="5rem" src="/img/coinmarketcap.webp" alt="Coin Market Cap" />
-      </A> */}
+      </A>
       <A
         target="_blank"
         rel="noreferer, noopener"
@@ -135,7 +126,7 @@ const Hero: FC = () => (
       nHover={{ transform: 'scale(1.1)' }}
       transition="transform 300ms ease-in-out"
     >
-      {/* <Img width="3rem" src="/img/pump.webp" alt="Pump" /> */}
+      <Img width="3rem" src="/img/jup.webp" alt="Jup" />
       <A
         target="_blank"
         rel="noreferer, noopener"
