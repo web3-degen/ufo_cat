@@ -21,12 +21,16 @@ export const GlobalStyles = css`
     font-family: 'Dailymirror';
     src: url('/fonts/Dailymirror.ttf');
   }
+  @font-face {
+    font-family: 'ChunkyFive';
+    src: url('/fonts/ChunkyFive.ttf');
+  }
 
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'GochiHand';
+    font-family: 'ChunkyFive';
     color: #4e4e4e;
   }
 
@@ -36,13 +40,13 @@ export const GlobalStyles = css`
   h4,
   h5,
   h6 {
-    font-family: 'GochiHand';
+    font-family: 'ChunkyFive';
     text-shadow: 3px 3px 0 #fff;
     text-align: center;
   }
 
   p {
-    font-family: 'GochiHand';
+    font-family: 'ChunkyFive';
     text-transform: uppercase;
   }
 

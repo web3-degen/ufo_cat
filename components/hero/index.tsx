@@ -41,15 +41,17 @@ const Hero: FC = () => (
         height={['5rem', '7.5rem', '10rem', '15rem']}
       />
     </H1>
-    <H2 fontSize="2rem" maxWidth="40rem">
+    <H2 fontSize="2.2rem" maxWidth="40rem">
       Have you seen this cat.
     </H2>
     <P
-      fontSize={['0.9rem', '0.9rem', '1.5rem']}
+      fontSize={['0.60rem', '0.9rem', '1.2rem']}
       maxWidth="40rem"
       textAlign="center"
     >
-      <Code>CA: </Code>
+      <Code>
+        CA: <span>A8C3xuqscfmyLrte3VmTqrAq8kgMASius9AFNANwpump</span>
+      </Code>
     </P>
     <Div display="flex" gap="0.5rem" mb="1rem">
       <A

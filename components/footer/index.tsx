@@ -19,7 +19,7 @@ const Footer: FC = () => (
       fontSize="0.75rem"
       fontWeight="bold"
       textAlign="center"
-      fontFamily="-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu"
+      fontFamily="ChunkyFive"
     >
       No Promises, No Utility, Purely For Entertainment
     </P>
