@@ -50,14 +50,14 @@ const Hero: FC = () => (
       textAlign="center"
     >
       <Code>
-        CA: <span>A8C3xuqscfmyLrte3VmTqrAq8kgMASius9AFNANwpump</span>
+        CA: <span></span>
       </Code>
     </P>
     <Div display="flex" gap="0.5rem" mb="1rem">
       <A
         target="_blank"
         rel="noreferer, noopener"
-        href="https://x.com/UFOCatCTO"
+        href="https://x.com/UFO_CAT_SOLANA"
         transition="transform 300ms ease-in-out"
         nHover={{ transform: 'scale(1.3)' }}
       >
@@ -100,11 +100,7 @@ const Hero: FC = () => (
       marginBottom="1rem"
     >
       <Img width="3rem" src="/img/pump.webp" alt="Jup" />
-      <A
-        target="_blank"
-        rel="noreferer, noopener"
-        href="https://jup.ag/swap/SOL-6GgVewyRN9PGJQbHXBf3YUg99cGQA87Bbx6vNpA3uXit"
-      >
+      <A target="_blank" rel="noreferer, noopener" href="https://pump.fun/">
         BUY NOW
       </A>
       <Img width="3rem" src="/img/solana.webp" alt="Solana" />
