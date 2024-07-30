@@ -1,4 +1,4 @@
-# TOLO YAKOLOKO
+# UFO CAT
 
 ## Contributing
 

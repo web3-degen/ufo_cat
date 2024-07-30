@@ -14,13 +14,15 @@ import { FC } from 'react';
 const Hero: FC = () => (
   <Header
     flex="1"
-    my="1rem"
     gap="1rem"
     display="flex"
     maxWidth="1024px"
     alignItems="center"
     flexDirection="column"
     mx={['1rem', '1rem', '1rem', 'auto']}
+    backgroundColor="rgb(255, 255, 255, 0.9)"
+    marginTop="2rem"
+    borderRadius="2rem 2rem 0 0"
   >
     <Img
       width="100%"
@@ -29,27 +31,31 @@ const Hero: FC = () => (
       src="/img/cover.webp"
       mb={['-3rem', '-4rem', '-5rem', '-7rem']}
     />
-    <H1 title="Tolo Yakoloko" aria-label="Tolo Yakoloko">
+    <H1 title="UFO CAT" aria-label="UFO CAT">
       <Img
         overflow="hidden"
         borderRadius="50%"
-        alt="Tolo Yakoloko"
+        alt="Ufo Cat"
         src="/img/logo.webp"
         border="5px solid #ffffff"
         height={['5rem', '7.5rem', '10rem', '15rem']}
       />
     </H1>
     <H2 fontSize="2rem" maxWidth="40rem">
-      Me Tolo Yakoloco, co-fudder of Solano Labs.
+      Have you seen this cat.
     </H2>
-    <P fontSize="1.5rem" maxWidth="40rem">
-      ✅ <Code>CA: 6GgVewyRN9PGJQbHXBf3YUg99cGQA87Bbx6vNpA3uXit</Code>
+    <P
+      fontSize={['0.9rem', '0.9rem', '1.5rem']}
+      maxWidth="40rem"
+      textAlign="center"
+    >
+      <Code>CA: </Code>
     </P>
     <Div display="flex" gap="0.5rem" mb="1rem">
       <A
         target="_blank"
         rel="noreferer, noopener"
-        href="https://twitter.com/SolanoCofudder"
+        href="https://x.com/UFOCatCTO"
         transition="transform 300ms ease-in-out"
         nHover={{ transform: 'scale(1.3)' }}
       >
@@ -58,40 +64,13 @@ const Hero: FC = () => (
       <A
         target="_blank"
         rel="noreferer, noopener"
-        href="https://t.me/solanacofudder"
+        href="https://t.me/ufo_cat_portal"
         transition="transform 300ms ease-in-out"
         nHover={{ transform: 'scale(1.3)' }}
       >
-        <Img width="5rem" src="/img/tg.webp" alt="Coin Market Cap" />
-      </A>
-      <A
-        target="_blank"
-        rel="noreferer, noopener"
-        href="https://birdeye.so/token/6GgVewyRN9PGJQbHXBf3YUg99cGQA87Bbx6vNpA3uXit?chain=solana"
-        transition="transform 300ms ease-in-out"
-        nHover={{ transform: 'scale(1.3)' }}
-      >
-        <Img width="5rem" src="/img/birdeye.webp" alt="Birdeye" />
+        <Img width="5rem" src="/img/tg.webp" alt="Telegram" />
       </A>
       {/* <A
-        target="_blank"
-        rel="noreferer, noopener"
-        href="#"
-        transition="transform 300ms ease-in-out"
-        nHover={{ transform: 'scale(1.3)' }}
-      >
-        <Img width="5rem" src="/img/coingecko.webp" alt="Coin Gecko" />
-      </A> */}
-      <A
-        target="_blank"
-        rel="noreferer, noopener"
-        href="https://coinmarketcap.com/currencies/tolo-yacoloco/"
-        transition="transform 300ms ease-in-out"
-        nHover={{ transform: 'scale(1.3)' }}
-      >
-        <Img width="5rem" src="/img/coinmarketcap.webp" alt="Coin Market Cap" />
-      </A>
-      <A
         target="_blank"
         rel="noreferer, noopener"
         href="https://dexscreener.com/solana/4ccpqljfzrfy41mcbskfka8xvgzqvkpxma7ybrotpdid"
@@ -99,16 +78,7 @@ const Hero: FC = () => (
         nHover={{ transform: 'scale(1.3)' }}
       >
         <Img width="5rem" src="/img/dexscreener.webp" alt="Dex Screener" />
-      </A>
-      <A
-        target="_blank"
-        rel="noreferer, noopener"
-        href="https://www.dextools.io/app/en/solana/pair-explorer/4ccPqLJFZRfy41mcbsKfka8xvGZqvKPXma7yBRoTPDiD?t=1713226298773"
-        transition="transform 300ms ease-in-out"
-        nHover={{ transform: 'scale(1.3)' }}
-      >
-        <Img width="5rem" src="/img/dextools.webp" alt="Dex Tools" />
-      </A>
+      </A> */}
     </Div>
     <Button
       all="unset"
@@ -116,17 +86,18 @@ const Hero: FC = () => (
       gap="1rem"
       bg="#ffffff"
       display="flex"
-      color="#3E0451"
+      color="#4e4e4e"
       fontSize="2rem"
       cursor="pointer"
       alignItems="center"
-      fontFamily="GochiHand"
-      border="5px solid #3E0451"
-      boxShadow="10px 10px 0px #3E0451"
+      fontFamily="Dailymirror"
+      border="5px solid #4e4e4e"
+      boxShadow="10px 10px 0px #4e4e4e"
       nHover={{ transform: 'scale(1.1)' }}
       transition="transform 300ms ease-in-out"
+      marginBottom="1rem"
     >
-      <Img width="3rem" src="/img/jup.webp" alt="Jup" />
+      <Img width="3rem" src="/img/pump.webp" alt="Jup" />
       <A
         target="_blank"
         rel="noreferer, noopener"

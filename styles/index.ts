@@ -17,12 +17,17 @@ export const GlobalStyles = css`
     font-family: 'Reenie';
     src: url('/fonts/reenie-beanie.regular.ttf');
   }
+  @font-face {
+    font-family: 'Dailymirror';
+    src: url('/fonts/Dailymirror.ttf');
+  }
 
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'GochiHand';
+    color: #4e4e4e;
   }
 
   h1,
@@ -31,12 +36,13 @@ export const GlobalStyles = css`
   h4,
   h5,
   h6 {
-    font-family: 'Reenie';
+    font-family: 'GochiHand';
     text-shadow: 3px 3px 0 #fff;
+    text-align: center;
   }
 
   p {
-    font-family: 'Reenie';
+    font-family: 'GochiHand';
     text-transform: uppercase;
   }
 
@@ -47,6 +53,14 @@ export const GlobalStyles = css`
   body,
   html {
     overflow-x: hidden;
+  }
+
+  body {
+    background-image: url('/img/bg.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 
   a {
