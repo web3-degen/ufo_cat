@@ -20,7 +20,7 @@ const Hero: FC = () => (
     alignItems="center"
     flexDirection="column"
     mx={['1rem', '1rem', '1rem', 'auto']}
-    backgroundColor="rgb(255, 255, 255, 0.9)"
+    backgroundColor="rgb(255, 255, 255, 0.7)"
     marginTop="2rem"
     // borderRadius="2rem 2rem 0 0"
     border="1rem solid #d0ae88"
@@ -54,7 +54,7 @@ const Hero: FC = () => (
       maxWidth="40rem"
       width="70%"
     >
-      <Code>CA: BfHkvKMEYjwPXnL36uiM8RnAoMFy8aqNyTJXYU3ZnZtz</Code>
+      <Code>CA: Soon...</Code>
     </P>
     <Div display="flex" gap={['0.2rem', '1rem', '0.5rem']}>
       <A
@@ -75,7 +75,7 @@ const Hero: FC = () => (
       >
         <Img width="5rem" src="/img/tg.webp" alt="Telegram" />
       </A>
-      <A
+      {/* <A
         target="_blank"
         rel="noreferer, noopener"
         href="https://dexscreener.com/solana/4ccpqljfzrfy41mcbskfka8xvgzqvkpxma7ybrotpdid"
@@ -83,7 +83,7 @@ const Hero: FC = () => (
         nHover={{ transform: 'scale(1.3)' }}
       >
         <Img width="5rem" src="/img/dexscreener.webp" alt="Dex Screener" />
-      </A>
+      </A> */}
     </Div>
     <Button
       all="unset"

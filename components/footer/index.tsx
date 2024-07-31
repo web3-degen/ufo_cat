@@ -3,7 +3,7 @@ import { FC } from 'react';
 
 const Footer: FC = () => (
   <FooterElement
-    backgroundColor="rgb(255, 255, 255, 0.9)"
+    backgroundColor="rgb(255, 255, 255, 0.7)"
     display="flex"
     justifyContent="center"
     maxWidth="1024px"
