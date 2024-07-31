@@ -2,39 +2,15 @@ import { css } from '@emotion/react';
 
 export const GlobalStyles = css`
   @font-face {
-    font-family: 'GochiHand';
-    src: url('/fonts/GochiHand-Regular.ttf');
-  }
-  @font-face {
-    font-family: 'Holywind';
-    src: url('/fonts/Holywind.ttf');
-  }
-  @font-face {
-    font-family: 'Scribble';
-    src: url('/fonts/scribble.ttf');
-  }
-  @font-face {
-    font-family: 'Reenie';
-    src: url('/fonts/reenie-beanie.regular.ttf');
-  }
-  @font-face {
-    font-family: 'Dailymirror';
-    src: url('/fonts/Dailymirror.ttf');
-  }
-  @font-face {
-    font-family: 'ChunkyFive';
-    src: url('/fonts/ChunkyFive.ttf');
-  }
-  @font-face {
-    font-family: 'Russian';
-    src: url('/fonts/Russian.ttf');
+    font-family: 'Kremlin';
+    src: url('/fonts/Kremlin.ttf');
   }
 
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Russian';
+    font-family: 'Kremlin';
     color: #e24920;
   }
 
@@ -44,12 +20,12 @@ export const GlobalStyles = css`
   h4,
   h5,
   h6 {
-    font-family: 'Russian';
+    font-family: 'Kremlin';
     text-align: center;
   }
 
   p {
-    font-family: 'Russian';
+    font-family: 'Kremlin';
     text-transform: uppercase;
   }
 
