@@ -6,12 +6,7 @@ import SEO from '../seo';
 const Layout: FC<PropsWithChildren> = ({ children }) => (
   <>
     <SEO />
-    <Main
-      display="flex"
-      minHeight="100vh"
-      flexDirection="column"
-      backdropFilter="grayScale(100%)"
-    >
+    <Main display="flex" minHeight="100vh" flexDirection="column">
       {children}
     </Main>
   </>

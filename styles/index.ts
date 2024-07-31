@@ -25,13 +25,17 @@ export const GlobalStyles = css`
     font-family: 'ChunkyFive';
     src: url('/fonts/ChunkyFive.ttf');
   }
+  @font-face {
+    font-family: 'Russian';
+    src: url('/fonts/Russian.ttf');
+  }
 
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'ChunkyFive';
-    color: #4e4e4e;
+    font-family: 'Russian';
+    color: #e24920;
   }
 
   h1,
@@ -40,13 +44,12 @@ export const GlobalStyles = css`
   h4,
   h5,
   h6 {
-    font-family: 'ChunkyFive';
-    text-shadow: 3px 3px 0 #fff;
+    font-family: 'Russian';
     text-align: center;
   }
 
   p {
-    font-family: 'ChunkyFive';
+    font-family: 'Russian';
     text-transform: uppercase;
   }
 
@@ -63,7 +66,7 @@ export const GlobalStyles = css`
     background-image: url('/img/bg.webp');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: fixed;
   }
 

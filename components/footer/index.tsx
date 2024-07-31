@@ -14,13 +14,7 @@ const Footer: FC = () => (
     marginBottom="2rem"
     borderRadius="0 0 2rem 2rem"
   >
-    <P
-      opacity="0.8"
-      fontSize="0.75rem"
-      fontWeight="bold"
-      textAlign="center"
-      fontFamily="ChunkyFive"
-    >
+    <P fontSize="1rem" fontWeight="bold" textAlign="center">
       No Promises, No Utility, Purely For Entertainment
     </P>
   </FooterElement>
