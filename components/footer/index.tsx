@@ -12,7 +12,9 @@ const Footer: FC = () => (
     py="4rem"
     mx={['1rem', '1rem', '1rem', 'auto']}
     marginBottom="2rem"
-    borderRadius="0 0 2rem 2rem"
+    // borderRadius="0 0 2rem 2rem"
+    border="1rem solid #d0ae88"
+    borderTop="none"
   >
     <P fontSize="1rem" fontWeight="bold" textAlign="center">
       No Promises, No Utility, Purely For Entertainment

@@ -11,7 +11,7 @@ export const GlobalStyles = css`
     padding: 0;
     box-sizing: border-box;
     font-family: 'Kremlin';
-    color: #e24920;
+    color: #b20f0d;
   }
 
   h1,
