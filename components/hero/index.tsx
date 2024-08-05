@@ -22,14 +22,12 @@ const Hero: FC = () => (
     mx={['1rem', '1rem', '1rem', 'auto']}
     backgroundColor="rgb(255, 255, 255, 0.7)"
     marginTop="2rem"
-    // borderRadius="2rem 2rem 0 0"
     border="1rem solid #d0ae88"
     borderBottom="none"
   >
     <Img
       width="100%"
       alt="background"
-      // borderRadius="2rem 2rem 0 0"
       src="/img/cover.webp"
       mb={['-3rem', '-4rem', '-5rem', '-7rem']}
     />
@@ -69,7 +67,7 @@ const Hero: FC = () => (
       <A
         target="_blank"
         rel="noreferer, noopener"
-        href="https://t.me/boris_solana_portal"
+        href="https://t.me/boris_sol_portal"
         transition="transform 300ms ease-in-out"
         nHover={{ transform: 'scale(1.3)' }}
       >
