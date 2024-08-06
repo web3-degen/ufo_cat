@@ -8,6 +8,7 @@ import {
   Header,
   Img,
   P,
+  Video,
 } from '@stylin.js/elements';
 import { FC } from 'react';
 
@@ -32,13 +33,19 @@ const Hero: FC = () => (
       mb={['-3rem', '-4rem', '-5rem', '-7rem']}
     />
     <H1 title="UFO CAT" aria-label="UFO CAT">
-      <Img
+      <Video
+        autoPlay
+        loop
+        muted
+        playsInline
         overflow="hidden"
         borderRadius="50%"
-        alt="Comrade Boris"
-        src="/img/logo.webp"
         border="5px solid #ffffff"
         height={['7rem', '7.5rem', '10rem', '15rem']}
+        width={['7rem', '7.5rem', '10rem', '15rem']}
+        objectFit="cover"
+        src="/video/logo.mp4"
+        typeof="video/mp4"
       />
     </H1>
     <H2 fontSize={['1.2rem', '1.3rem', '2.2rem']} maxWidth="50rem">
