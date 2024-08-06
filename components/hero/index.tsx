@@ -14,7 +14,7 @@ import {
 import { FC, useEffect, useRef, useState } from 'react';
 
 const Hero: FC = () => {
-  const [isPlaying, setIsPlaying] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
 
   useEffect(() => {
