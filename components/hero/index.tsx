@@ -107,7 +107,7 @@ const Hero: FC = () => {
         maxWidth="40rem"
         width="70%"
       >
-        <Code>CA: Soon...</Code>
+        <Code>CA: HTtCLFcrzrAncDdGVeYbVMDepqB83MGkwy76HDiipump</Code>
       </P>
       <Div display="flex" gap={['0.2rem', '1rem', '0.5rem']}>
         <A
@@ -129,14 +129,14 @@ const Hero: FC = () => {
           <Img width="5rem" src="/img/tg.webp" alt="Telegram" />
         </A>
         {/* <A
-        target="_blank"
-        rel="noreferer, noopener"
-        href="https://dexscreener.com/solana/4ccpqljfzrfy41mcbskfka8xvgzqvkpxma7ybrotpdid"
-        transition="transform 300ms ease-in-out"
-        nHover={{ transform: 'scale(1.3)' }}
-      >
-        <Img width="5rem" src="/img/dexscreener.webp" alt="Dex Screener" />
-      </A> */}
+          target="_blank"
+          rel="noreferer, noopener"
+          href=""
+          transition="transform 300ms ease-in-out"
+          nHover={{ transform: 'scale(1.3)' }}
+        >
+          <Img width="5rem" src="/img/dexscreener.webp" alt="Dex Screener" />
+        </A> */}
       </Div>
       <Button
         all="unset"
@@ -159,7 +159,11 @@ const Hero: FC = () => {
         marginBottom={['0.5rem', '0.75rem', '1rem']}
       >
         <Img width="3rem" src="/img/pump.webp" alt="Jup" />
-        <A target="_blank" rel="noreferer, noopener" href="https://pump.fun/">
+        <A
+          target="_blank"
+          rel="noreferer, noopener"
+          href="https://pump.fun/HTtCLFcrzrAncDdGVeYbVMDepqB83MGkwy76HDiipump"
+        >
           BUY NOW
         </A>
         <Img width="3rem" src="/img/solana.webp" alt="Solana" />
