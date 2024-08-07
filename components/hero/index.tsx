@@ -128,15 +128,15 @@ const Hero: FC = () => {
         >
           <Img width="5rem" src="/img/tg.webp" alt="Telegram" />
         </A>
-        {/* <A
+        <A
           target="_blank"
           rel="noreferer, noopener"
-          href=""
+          href="https://dexscreener.com/solana/4zan5gpudummwdp5gka3qvaqfpysn8yvayxevho3t2yg"
           transition="transform 300ms ease-in-out"
           nHover={{ transform: 'scale(1.3)' }}
         >
           <Img width="5rem" src="/img/dexscreener.webp" alt="Dex Screener" />
-        </A> */}
+        </A>
       </Div>
       <Button
         all="unset"
@@ -158,11 +158,11 @@ const Hero: FC = () => {
         transition="transform 300ms ease-in-out"
         marginBottom={['0.5rem', '0.75rem', '1rem']}
       >
-        <Img width="3rem" src="/img/pump.webp" alt="Jup" />
+        <Img width="3rem" src="/img/jup.webp" alt="Jup" />
         <A
           target="_blank"
           rel="noreferer, noopener"
-          href="https://pump.fun/HTtCLFcrzrAncDdGVeYbVMDepqB83MGkwy76HDiipump"
+          href="https://jup.ag/swap/SOL-HTtCLFcrzrAncDdGVeYbVMDepqB83MGkwy76HDiipump"
         >
           BUY NOW
         </A>
