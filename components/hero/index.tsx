@@ -107,13 +107,13 @@ const Hero: FC = () => {
         maxWidth="40rem"
         width="70%"
       >
-        <Code>CA: HTtCLFcrzrAncDdGVeYbVMDepqB83MGkwy76HDiipump</Code>
+        <Code>CA: SOON</Code>
       </P>
       <Div display="flex" gap={['0.2rem', '1rem', '0.5rem']}>
         <A
           target="_blank"
           rel="noreferer, noopener"
-          href="https://x.com/OLEG_DOG_SOL"
+          href="https://x.com/OLEG_DOG_TRON"
           transition="transform 300ms ease-in-out"
           nHover={{ transform: 'scale(1.3)' }}
         >
@@ -122,21 +122,21 @@ const Hero: FC = () => {
         <A
           target="_blank"
           rel="noreferer, noopener"
-          href="https://t.me/oleg_solana_portal"
+          href="https://t.me/oleg_tron_portal"
           transition="transform 300ms ease-in-out"
           nHover={{ transform: 'scale(1.3)' }}
         >
           <Img width="5rem" src="/img/tg.webp" alt="Telegram" />
         </A>
-        <A
+        {/* <A
           target="_blank"
           rel="noreferer, noopener"
           href="https://dexscreener.com/solana/4zan5gpudummwdp5gka3qvaqfpysn8yvayxevho3t2yg"
           transition="transform 300ms ease-in-out"
           nHover={{ transform: 'scale(1.3)' }}
         >
-          <Img width="5rem" src="/img/dexscreener.webp" alt="Dex Screener" />
-        </A>
+          <Img width="5rem" src="/img/dextools.webp" alt="Dextools" />
+        </A> */}
       </Div>
       <Button
         all="unset"
@@ -158,15 +158,15 @@ const Hero: FC = () => {
         transition="transform 300ms ease-in-out"
         marginBottom={['0.5rem', '0.75rem', '1rem']}
       >
-        <Img width="3rem" src="/img/jup.webp" alt="Jup" />
+        <Img width="3rem" src="/img/sunpump.webp" alt="Sun Pump" />
         <A
           target="_blank"
           rel="noreferer, noopener"
-          href="https://jup.ag/swap/SOL-HTtCLFcrzrAncDdGVeYbVMDepqB83MGkwy76HDiipump"
+          href="https://sunpump.meme/token/"
         >
-          BUY NOW
+          SOON
         </A>
-        <Img width="3rem" src="/img/solana.webp" alt="Solana" />
+        <Img width="3rem" src="/img/tron.webp" alt="Tron" />
       </Button>
     </Header>
   );
