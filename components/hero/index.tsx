@@ -107,7 +107,7 @@ const Hero: FC = () => {
         maxWidth="40rem"
         width="70%"
       >
-        <Code>CA: SOON</Code>
+        <Code>CA: THBWzb2tZAoUCEgqjkWS8Ru4DKzPrw89Eb</Code>
       </P>
       <Div display="flex" gap={['0.2rem', '1rem', '0.5rem']}>
         <A
@@ -162,7 +162,7 @@ const Hero: FC = () => {
         <A
           target="_blank"
           rel="noreferer, noopener"
-          href="https://sunpump.meme/token/"
+          href="https://sunpump.meme/token/THBWzb2tZAoUCEgqjkWS8Ru4DKzPrw89Eb"
         >
           SOON
         </A>
