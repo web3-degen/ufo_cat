@@ -60,7 +60,7 @@ const Hero: FC = () => {
         src="/img/cover.webp"
         mb={['-3rem', '-4rem', '-5rem', '-7rem']}
       />
-      <H1 title="Comrade Oleg" aria-label="Comrade Oleg">
+      <H1 title="Comrade Boris" aria-label="Comrade Boris">
         <Video
           autoPlay
           loop
@@ -98,7 +98,7 @@ const Hero: FC = () => {
       </Button>
       <H2 fontSize={['1.2rem', '1.3rem', '2.2rem']} maxWidth="50rem">
         War is Hell <br />
-        <br /> And I am just a DOGE named Oleg
+        <br /> And I am just a DOGE named Boris
       </H2>
       <P
         fontSize={['1rem', '1rem', '1.5rem']}
@@ -107,13 +107,13 @@ const Hero: FC = () => {
         maxWidth="40rem"
         width="70%"
       >
-        <Code>CA: THBWzb2tZAoUCEgqjkWS8Ru4DKzPrw89Eb</Code>
+        <Code>CA: Soon</Code>
       </P>
       <Div display="flex" gap={['0.2rem', '1rem', '0.5rem']}>
         <A
           target="_blank"
           rel="noreferer, noopener"
-          href="https://x.com/OLEG_DOG_TRON"
+          href="https://x.com/BORIS_DOG_TRON"
           transition="transform 300ms ease-in-out"
           nHover={{ transform: 'scale(1.3)' }}
         >
@@ -122,7 +122,7 @@ const Hero: FC = () => {
         <A
           target="_blank"
           rel="noreferer, noopener"
-          href="https://t.me/oleg_tron_portal"
+          href="https://t.me/boris_tron_portal"
           transition="transform 300ms ease-in-out"
           nHover={{ transform: 'scale(1.3)' }}
         >
@@ -135,7 +135,7 @@ const Hero: FC = () => {
           transition="transform 300ms ease-in-out"
           nHover={{ transform: 'scale(1.3)' }}
         >
-          <Img width="5rem" src="/img/dextools.webp" alt="Dextools" />
+          <Img width="5rem" src="/img/dexscreener.webp" alt="Dexscreener" />
         </A> */}
       </Div>
       <Button
@@ -159,11 +159,7 @@ const Hero: FC = () => {
         marginBottom={['0.5rem', '0.75rem', '1rem']}
       >
         <Img width="3rem" src="/img/sunpump.webp" alt="Sun Pump" />
-        <A
-          target="_blank"
-          rel="noreferer, noopener"
-          href="https://sunpump.meme/token/THBWzb2tZAoUCEgqjkWS8Ru4DKzPrw89Eb"
-        >
+        <A target="_blank" rel="noreferer, noopener" href="#">
           SOON
         </A>
         <Img width="3rem" src="/img/tron.webp" alt="Tron" />

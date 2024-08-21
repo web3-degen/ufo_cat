@@ -45,7 +45,7 @@ const SEO: FC = () => (
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
     <meta name="theme-color" content="#ffffff" />
-    <title>Comrade Oleg</title>
+    <title>Comrade Boris</title>
   </Head>
 );
 
