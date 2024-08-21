@@ -107,7 +107,7 @@ const Hero: FC = () => {
         maxWidth="40rem"
         width="70%"
       >
-        <Code>CA: Soon</Code>
+        <Code>CA: TKEwMiaLGhcb9DhXhMbXTm9FmmAbdGegqD</Code>
       </P>
       <Div display="flex" gap={['0.2rem', '1rem', '0.5rem']}>
         <A
@@ -131,7 +131,7 @@ const Hero: FC = () => {
         {/* <A
           target="_blank"
           rel="noreferer, noopener"
-          href="https://dexscreener.com/solana/4zan5gpudummwdp5gka3qvaqfpysn8yvayxevho3t2yg"
+          href="https://dexscreener.com/tron/TKEwMiaLGhcb9DhXhMbXTm9FmmAbdGegqD"
           transition="transform 300ms ease-in-out"
           nHover={{ transform: 'scale(1.3)' }}
         >
@@ -159,8 +159,12 @@ const Hero: FC = () => {
         marginBottom={['0.5rem', '0.75rem', '1rem']}
       >
         <Img width="3rem" src="/img/sunpump.webp" alt="Sun Pump" />
-        <A target="_blank" rel="noreferer, noopener" href="#">
-          SOON
+        <A
+          target="_blank"
+          rel="noreferer, noopener"
+          href="https://sunpump.meme/token/TKEwMiaLGhcb9DhXhMbXTm9FmmAbdGegqD"
+        >
+          BUY
         </A>
         <Img width="3rem" src="/img/tron.webp" alt="Tron" />
       </Button>
